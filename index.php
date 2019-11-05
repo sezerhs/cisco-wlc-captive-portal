@@ -45,27 +45,6 @@ elseif ($statusCode == 5) {
         </div>
         
         <form action="<?php echo $switch_url; ?>" method="post" id="login-form">
-            
-            <div class="social">
-              <h4>Connect with</h4>
-              <ul>
-                <li> 
-                <a href="" class="facebook">
-                  <span class="fa fa-facebook"></span>
-                </a>
-                </li>
-                <li>
-                  <a href="" class="twitter">
-                    <span class="fa fa-twitter"></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="" class="google-plus">
-                    <span class="fa fa-google-plus"></span>
-                  </a>
-                </li>
-              </ul>
-             </div>
 
              <div class="divider">
                <span>or</span>
@@ -74,8 +53,8 @@ elseif ($statusCode == 5) {
             <div class="input-field">
                 <?php if ($statusMessage) echo "<p class=\"alert\"><i class=\"fa fa-warning\"></i> {$statusMessage}</p>"; ?>
                 
-                <label for="email">Email</label>
-                <input type="email" name="username" required="email" />
+                
+                <input type="text" name="username" />
                 <label for="password">Password</label> 
                 <input type="password" name="password" required/>
                 <input type="submit" value="Log in" />
