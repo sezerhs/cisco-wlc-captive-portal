@@ -1,4 +1,6 @@
 # cisco-wlc-captive-portal
+Turkish Line<br>
+bu sayfa cisco ile external captiveportal yapmayi saglar. cisco wlc uzerindeki cihazdan yonlendirme yapildiginda external login page olarak ilgli tanimlamalar yapildiginda asagidaki form olusturdugunda kullanici adi bilgileri cisco'ya gonderilir ve radius'dan dogrulama yapilir.
 
 Configuring a Cisco Wireless LAN Controller (WLC) to support external web authentication (captive portal) is notoriously difficult. Unfortunately there is a lack of detailed -- or sometimes relevant -- information surrounding how this process works and how to communicate with the WLC to authenticate users.
 
